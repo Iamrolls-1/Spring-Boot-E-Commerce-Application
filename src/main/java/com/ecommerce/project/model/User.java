@@ -32,6 +32,8 @@ public class User {
     @NotBlank
     @Size(max = 50)
     @Email
+    @Getter
+    @Setter
     private String email;
 
     @NotBlank
